@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+media
+.Python
+.venv_bot/
+venv_bot/
+key.txt
+notes.txt
