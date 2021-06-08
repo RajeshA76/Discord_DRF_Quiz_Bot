@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'quizbot.quiz',
+    'quizbot.score',
     'rest_framework',
 ]
 
