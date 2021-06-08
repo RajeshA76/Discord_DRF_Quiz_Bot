@@ -6,3 +6,4 @@ media
 venv_bot/
 key.txt
 notes.txt
+.env

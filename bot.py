@@ -2,6 +2,8 @@ import discord
 import requests
 import json
 import asyncio
+import os
+from decouple import config
 
 client = discord.Client() # Building conneciton to discord
 
@@ -94,5 +96,5 @@ async def on_message(message):
 		else:
 				await message.channel.send('oops , that is not right')
 
-client.run('ODUwMzY5MDUzNjEyMzEwNTM5.YLot5Q.raVGl7QEsADeM62AUeGuqxB_1B8')
+client.run(config('DISCORD_TOKEN'))
 
